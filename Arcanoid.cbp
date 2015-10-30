@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Arcanoid" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Arcanoid" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Arcanoid" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="include" />
+			<Add directory="src" />
+		</Compiler>
+		<Linker>
+			<Add library="SDL2" />
+			<Add library="SDL2main" />
+			<Add library="SDL2_image" />
+		</Linker>
+		<Unit filename="include/ball.h" />
+		<Unit filename="include/block.h" />
+		<Unit filename="include/execontrol.h" />
+		<Unit filename="include/mainmenu.h" />
+		<Unit filename="include/mainprocess.h" />
+		<Unit filename="include/rf_declares.h" />
+		<Unit filename="include/rf_engine.h" />
+		<Unit filename="include/rf_process.h" />
+		<Unit filename="include/rf_time.h" />
+		<Unit filename="include/rf_window.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ball.cpp" />
+		<Unit filename="src/block.cpp" />
+		<Unit filename="src/execontrol.cpp" />
+		<Unit filename="src/mainmenu.cpp" />
+		<Unit filename="src/mainprocess.cpp" />
+		<Unit filename="src/rf_engine.cpp" />
+		<Unit filename="src/rf_process.cpp" />
+		<Unit filename="src/rf_time.cpp" />
+		<Unit filename="src/rf_window.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

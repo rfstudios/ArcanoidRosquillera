@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1446160289 source:/home/yawin/Dokumentuak/c/Arcanoid/src/rf_engine.cpp
+	"rf_engine.h"
+	<string>
+
+1446160263 /home/yawin/Dokumentuak/c/Arcanoid/include/rf_engine.h
+	"rf_window.h"
+	"rf_process.h"
+	"rf_declares.h"
+	"rf_time.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<vector>
+	<iostream>
+
+1446081511 /home/yawin/Dokumentuak/c/Arcanoid/include/rf_window.h
+	"rf_process.h"
+	<SDL2/SDL.h>
+	<string>
+	<vector>
+
+1446081864 /home/yawin/Dokumentuak/c/Arcanoid/include/rf_process.h
+	"rf_engine.h"
+	"rf_declares.h"
+	<SDL2/SDL_image.h>
+	<string>
+
+1446136271 /home/yawin/Dokumentuak/c/Arcanoid/include/rf_declares.h
+
+1446080966 /home/yawin/Dokumentuak/c/Arcanoid/include/rf_time.h
+	<SDL2/SDL.h>
+
+1446081877 source:/home/yawin/Dokumentuak/c/Arcanoid/src/rf_process.cpp
+	"rf_process.h"
+
+1446081681 source:/home/yawin/Dokumentuak/c/Arcanoid/src/rf_time.cpp
+	"rf_time.h"
+
+1446081438 source:/home/yawin/Dokumentuak/c/Arcanoid/src/rf_window.cpp
+	"rf_window.h"
+
+1446135947 source:/home/yawin/Dokumentuak/c/Arcanoid/main.cpp
+	<SDL2/SDL.h>
+	"rf_declares.h"
+	"rf_engine.h"
+	"execontrol.h"
+	"mainprocess.h"
+
+1446135136 source:/home/yawin/Dokumentuak/c/Arcanoid/src/execontrol.cpp
+	"execontrol.h"
+
+1446135082 /home/yawin/Dokumentuak/c/Arcanoid/include/execontrol.h
+	"rf_process.h"
+
+1446158597 source:/home/yawin/Dokumentuak/c/Arcanoid/src/mainmenu.cpp
+	"mainmenu.h"
+	"mainprocess.h"
+
+1446136833 /home/yawin/Dokumentuak/c/Arcanoid/include/mainmenu.h
+	"rf_process.h"
+
+1446160695 /home/yawin/Dokumentuak/c/Arcanoid/include/mainprocess.h
+	"rf_process.h"
+
+1446160719 source:/home/yawin/Dokumentuak/c/Arcanoid/src/mainprocess.cpp
+	"mainprocess.h"
+	"mainmenu.h"
+	"block.h"
+	"ball.h"
+	"player.h"
+	"losescene.h"
+
+1446137971 source:/home/yawin/Dokumentuak/c/Arcanoid/src/block.cpp
+	"block.h"
+
+1446141186 /home/yawin/Dokumentuak/c/Arcanoid/include/block.h
+	"rf_process.h"
+
+1446162207 source:/home/yawin/Dokumentuak/c/Arcanoid/src/ball.cpp
+	"ball.h"
+	"rf_process.h"
+	"block.h"
+	<stdlib.h>
+
+1446140795 /home/yawin/Dokumentuak/c/Arcanoid/include/ball.h
+	"rf_process.h"
+
+1446158553 source:/home/yawin/Dokumentuak/c/Arcanoid/src/player.cpp
+	"player.h"
+
+1446157810 /home/yawin/Dokumentuak/c/Arcanoid/include/player.h
+	"rf_process.h"
+
+1446159407 source:/home/yawin/Dokumentuak/c/Arcanoid/src/losescene.cpp
+	"losescene.h"
+	"mainprocess.h"
+
+1446159392 /home/yawin/Dokumentuak/c/Arcanoid/include/losescene.h
+	"rf_process.h"
+
+1446160671 source:/home/yawin/Dokumentuak/c/Arcanoid/src/winscene.cpp
+	"winscene.h"
+	"mainprocess.h"
+
+1446160679 /home/yawin/Dokumentuak/c/Arcanoid/include/winscene.h
+	"rf_process.h"
+
