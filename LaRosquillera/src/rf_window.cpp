@@ -48,12 +48,15 @@ void RF_Window::render(vector<RF_Process*>& tM)
     {
         if(tM[i])
         {
-            SDL_Rect r;
-            SDL_QueryTexture(tM[i]->graph,NULL,NULL,&r.w,&r.h);
+            if(tM[i]->graph)
+            {
+                SDL_Rect r;
+                SDL_QueryTexture(tM[i]->graph,NULL,NULL,&r.w,&r.h);
 
-            r.x=tM[i]->transform.position.x; r.y=tM[i]->transform.position.y;
+                r.x=tM[i]->transform.position.x; r.y=tM[i]->transform.position.y;
 
-            SDL_RenderCopy(renderer,tM[i]->graph,NULL,&r);
+                SDL_RenderCopy(renderer,tM[i]->graph,NULL,&r);
+            }
         }
     }
     SDL_RenderPresent(renderer);

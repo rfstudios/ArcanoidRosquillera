@@ -105,3 +105,217 @@
 1446160679 /home/yawin/Dokumentuak/c/Arcanoid/include/winscene.h
 	"rf_process.h"
 
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/main.cpp
+	<SDL2/SDL.h>
+	"rf_declares.h"
+	"rf_engine.h"
+	"execontrol.h"
+	"mainprocess.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/rf_declares.h
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/rf_engine.h
+	"rf_window.h"
+	"rf_process.h"
+	"rf_declares.h"
+	"rf_time.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<vector>
+	<iostream>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/rf_window.h
+	"rf_process.h"
+	<SDL2/SDL.h>
+	<string>
+	<vector>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/rf_process.h
+	"rf_engine.h"
+	"rf_declares.h"
+	<SDL2/SDL_image.h>
+	<string>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/rf_time.h
+	<SDL2/SDL.h>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/execontrol.h
+	"rf_process.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/mainprocess.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/ball.cpp
+	"ball.h"
+	"rf_process.h"
+	"block.h"
+	<stdlib.h>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/ball.h
+	"rf_process.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/block.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/block.cpp
+	"block.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/execontrol.cpp
+	"execontrol.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/mainmenu.cpp
+	"mainmenu.h"
+	"mainprocess.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/mainmenu.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/mainprocess.cpp
+	"mainprocess.h"
+	"mainmenu.h"
+	"block.h"
+	"ball.h"
+	"player.h"
+	"losescene.h"
+	"winscene.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/player.h
+	"rf_process.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/losescene.h
+	"rf_process.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/include/winscene.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/rf_engine.cpp
+	"rf_engine.h"
+	<string>
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/rf_process.cpp
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/rf_time.cpp
+	"rf_time.h"
+
+1448914394 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/rf_window.cpp
+	"rf_window.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/losescene.cpp
+	"losescene.h"
+	"mainprocess.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/player.cpp
+	"player.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera/src/winscene.cpp
+	"winscene.h"
+	"mainprocess.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/main.cpp
+	<SDL2/SDL.h>
+	"rf_declares.h"
+	"rf_engine.h"
+	"execontrol.h"
+	"mainprocess.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/include/rf_declares.h
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/include/rf_engine.h
+	"rf_window.h"
+	"rf_process.h"
+	"rf_declares.h"
+	"rf_time.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<vector>
+	<iostream>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/include/rf_window.h
+	"rf_process.h"
+	<SDL2/SDL.h>
+	<string>
+	<vector>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/include/rf_process.h
+	"rf_engine.h"
+	"rf_declares.h"
+	<SDL2/SDL_image.h>
+	<string>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/include/rf_time.h
+	<SDL2/SDL.h>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/execontrol.h
+	"rf_process.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/mainprocess.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/ball.cpp
+	"ball.h"
+	"rf_process.h"
+	"block.h"
+	<stdlib.h>
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/ball.h
+	"rf_process.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/block.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/block.cpp
+	"block.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/execontrol.cpp
+	"execontrol.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/losescene.cpp
+	"losescene.h"
+	"mainprocess.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/losescene.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/mainmenu.cpp
+	"mainmenu.h"
+	"mainprocess.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/mainmenu.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/mainprocess.cpp
+	"mainprocess.h"
+	"mainmenu.h"
+	"block.h"
+	"ball.h"
+	"player.h"
+	"losescene.h"
+	"winscene.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/player.h
+	"rf_process.h"
+
+1448759757 /home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/include/winscene.h
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/player.cpp
+	"player.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/src/winscene.cpp
+	"winscene.h"
+	"mainprocess.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/src/rf_engine.cpp
+	"rf_engine.h"
+	<string>
+
+1448915557 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/src/rf_process.cpp
+	"rf_process.h"
+
+1448759757 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/src/rf_time.cpp
+	"rf_time.h"
+
+1448914394 source:/home/yawin/Dokumentuak/Dev/Arkanoid/ArcanoidRosquillera2/LaRosquillera/src/rf_window.cpp
+	"rf_window.h"
+
